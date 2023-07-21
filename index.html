@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="" />
+    <meta name="A simple website" content="" />
+    <title>A Simple Website</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 class main-text>A Simple Website</h1>
+    <p class="sub-text">Welcome to a simple website!</p>
+    <p id="clock" class="clock">Loading...</p>
+    <input
+      type="text"
+      id="Location"
+      name="Location"
+      placeholder="Enter A City"
+      maxlength="20"
+      class="textbox"
+      onkeypress="handleKeyPress(event)"
+    />
+    <button
+      type="button"
+      id="searchbutton"
+      class="button"
+      onclick="Getlocation()"
+    >
+      Search
+    </button>
+    <script src="Index.js"></script>
+  </body>
+</html>

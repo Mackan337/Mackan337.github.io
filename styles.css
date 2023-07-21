@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    margin-bottom: 8px;
+}
+
+/* Styles for buttons */
+.button {
+    padding: 12px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    margin-top: 20px;
+}
+
+/* Styles for text elements */
+.main-text {
+    font-size: 28px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.sub-text {
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+/* Styles for textboxes */
+.textbox {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.clock {
+    font-size: 48px;
+    font-weight: bold;
+    color: #333;
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 12px 20px;
+    background-color: #f0f0f0;
+
+}
