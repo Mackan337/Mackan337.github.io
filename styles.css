@@ -10,6 +10,15 @@ body {
     background-color: #f0f0f0;
 }
 
+.location {
+    margin: 0;
+    padding: 10px 0;
+    font-size: 24px;
+    top: -500px;
+    position: relative;
+
+}
+
 h1 {
     margin-bottom: 8px;
 }
@@ -60,3 +69,51 @@ h1 {
     background-color: #f0f0f0;
 
 }
+
+/* CSS for the table container */
+.weather-table {
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    padding: 16px;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+
+    height: 400px;
+    overflow-y:scroll 
+  }
+  
+  /* CSS for the table header */
+  .table-header {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 8px;
+  }
+  
+  /* CSS for each cell in the table header */
+  .cell {
+    flex: 1;
+    text-align: center;
+  }
+  
+  /* CSS for the table body */
+  .table-body {
+    margin-top: 8px;
+  }
+  
+  /* CSS for each row in the table */
+  .row {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* CSS for each cell in the table body */
+  .cell {
+    flex: 1;
+    text-align: center;
+  }
